@@ -1,0 +1,52 @@
+Existem outras entidades além dessas três?
+
+Sim, Acrescentei mais 2 entidades, endereços e docentes.
+
+
+
+
+Quais são os principais campos e tipos?
+
+Os campos principais da tabela cursos são:
+
+Nome do curso, unidades, vagas, Nivel do curso, carga horaria e preços
+
+Tipos: VARCHAR, VARCHAR, INT, VARCHAR, INT e INT
+
+Campos principais da tabela Turma:
+
+Sala, Turno, Horário
+
+Tipo: VARCHAR, INT, INT
+
+Campos principais da tabela Docentes:
+
+Nome do Professor, idade, cpf, Formação, Salário, Tempo de empregabilidade
+
+Tipos: VARCHAR, INT, INT, VARCHAR, INT, INT.
+
+Campos principais da tabela Alunos: 
+
+Matricula de inscrição, nome, contato, cpf , estado.
+
+Tipos: int, varchar, int, varchar, int, varchar
+
+Endereço campos da tabela: 
+
+Idendereço (tipo: int), Rua (varchar), número(int), bairro(varchar), estado(varchar), cidade(varchar) 
+
+
+obs: os tipos estão na ordem dos campos.
+
+
+
+Como essas entidades estão relacionadas?
+
+Turmas e alunos estão para todos m:n, cursos e alunos estão para todos m:n, cursos e turmas estão 1 para todos 1:n, docentes e alunos estão para todos m:n 
+
+endereço e alunos estão para um 1:1, endereços e docentes estão para um 1:1 
+
+Curso e docentes 1:n um para todos
+
+docente e turmas m:n todos para todos
+
